@@ -1,23 +1,8 @@
-# Quest 001 # https://www.wowhead.com/quest=28757/beating-them-back
-
-# Remove Quest Marker 001
-kill @e[nbt={Tags:["q1o1"]}]
-
-# Show Active Quest Marker 001
-summon item 3745 91.2 8889 {Item:{id:"minecraft:lever",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["q1o1"]}
-
-# Sidebar #
-# 1. Beating Them Back!
-scoreboard objectives add wom-quest dummy {"text":"Quests","bold":true, "color":"gold"}
-scoreboard objectives setdisplay sidebar wom-quest
-scoreboard players set ❶ wom-quest 1
-team add q1o1t
-team modify q1o1t color gold
-team modify q1o1t suffix {"text":" Beating Them Back!","color": "gold"}
-team join q1o1t ❶
-# - (0/4) Blackrock Worg slain
-scoreboard players set - wom-quest 0
-team add q1o1
-team modify q1o1 prefix {"text": " "}
-team modify q1o1 suffix {"text":" 0/6 Blackrock Worg slain"}
-team join q1o1 -
+# Quest Dialog #
+tellraw @p {"text":"So you're the new recruit from Stormwind, eh? I'm Marshal McBride, commander of this garrison. Glad to have you on board...\n<McBride looks through some papers.>"}
+tellraw @p [{"selector":"@p"},{"text":". It is "},{"selector":"@p"},{"text":", right?"}]
+tellraw @p {"text":"You've arrived just in time. The Blackrock orcs have managed to sneak into Northshire through a break in the mountain. My soldiers are doing the best that they can to push them back, but I fear they will be overwhelmed soon."}
+tellraw @p [{"text":"QUEST OBJECTIVES","bold":true}]
+tellraw @p {"text":"Kill 6 Blackrock Worgs."}
+# Rewards "Worg Handlers Gloves", 55c, 400xp
+tellraw @p ["",{"text":"["},{"text":"Accept","color":"gold","clickEvent":{"action":"run_command","value":"/function wom:quests/001/accept"}},{"text":"]"}]
