@@ -1,5 +1,7 @@
 # Quest 001 # https://www.wowhead.com/quest=28757/beating-them-back
 
+tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
+
 # Remove Quest Marker 001
 kill @e[nbt={Tags:["q1o1"]}]
 
