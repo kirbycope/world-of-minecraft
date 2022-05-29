@@ -8,8 +8,9 @@ I loaded the map and tried to find the coordinates using [Minecraft Overviewer](
 I used [Universal Minecraft Editor](https://www.universalminecrafteditor.com/) to edit a new save to become the starter for this repo. Mainly I changed the starting coordinates to be `3740 89 8890`.
 
 ## NPCS
+I created a resourcepack to replace the textures for Villagers.
 
 ### Stormwind Guard
-I created a resourcepack to replace the textures for Villagers.
+Based off of [this player skin](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest).
    - [Swamp.png](/World%20of%20Minecraft/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/swamp.png) makes all Swamp Villagers into Storwind Guards without helmets
    - [Nitwit.png](/World%20of%20Minecraft/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
