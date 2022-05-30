@@ -1,10 +1,8 @@
-# Quest 001 # https://www.wowhead.com/quest=28757/beating-them-back
-
 # Announce quest accepted
-tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
+tellraw @s {"text":"Quest accepted: Beating them back!","color":"gold"}
 
 # Update the Progress
-scoreboard players set @a[tag=init] 28757_started 1
+scoreboard players set @s 28757_started 1
 
 # Remove Quest Marker
 kill @e[nbt={Tags:["28757"]}]
@@ -18,7 +16,7 @@ team add 28757t
 team modify 28757t color gold
 team modify 28757t suffix {"text":" Beating Them Back!","color": "gold"}
 team join 28757t ❶
-# - (0/4) Blackrock Worg slain
+# - (0/6) Blackrock Worg slain
 scoreboard players set - wom-quest 0
 team add 28757
 team modify 28757 prefix {"text": " "}
