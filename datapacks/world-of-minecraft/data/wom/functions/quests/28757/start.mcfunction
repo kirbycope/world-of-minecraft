@@ -7,13 +7,13 @@ tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
 scoreboard players set @a quest_id 001
 
 # Set the Quest ID
-scoreboard players set @a quest_id 001
+scoreboard players set @a quest_id 28757
 
 # Remove Quest Marker
-kill @e[nbt={Tags:["q1o1"]}]
+kill @e[nbt={Tags:["28757"]}]
 
 # Show Active Quest Marker
-summon item 3745 91.2 8889 {Item:{id:"minecraft:lever",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["q1o1"]}
+summon item 3745 91.2 8889 {Item:{id:"minecraft:lever",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["28757"]}
 
 # Sidebar #
 # 1. Beating Them Back!

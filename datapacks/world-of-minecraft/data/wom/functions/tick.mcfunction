@@ -1,8 +1,11 @@
-# Quest 001 Giver
-execute at @a[scores={talked-to-villager=1..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/001/start
+# Initialize new players
+execute as @a[tag=!init] run function wom:events/init-player
 
-# Quest 001 Progress
-execute if entity @a[scores={quest_id=001}] run function wom:quests/001/check-progress
+# Quest Giver - 28757
+execute at @a[scores={talked-to-villager=1..,quest_id=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28757/prompt
+
+# Quest 28757 Progress
+execute if entity @a[scores={quest_id=28757}] run function wom:quests/28757/check-progress
 
 # Tick Reset(s) #
 

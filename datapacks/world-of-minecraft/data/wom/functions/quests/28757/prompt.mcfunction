@@ -5,4 +5,4 @@ tellraw @p {"text":"You've arrived just in time. The Blackrock orcs have managed
 tellraw @p [{"text":"QUEST OBJECTIVES","bold":true}]
 tellraw @p {"text":"Kill 6 Blackrock Worgs."}
 # Rewards "Worg Handlers Gloves", 55c, 400xp
-tellraw @p ["",{"text":"["},{"text":"Accept","color":"gold","clickEvent":{"action":"run_command","value":"/function wom:quests/001/accept"}},{"text":"]"}]
+tellraw @p ["",{"text":"["},{"text":"Accept","color":"gold","clickEvent":{"action":"run_command","value":"/function wom:quests/28757/accept"}},{"text":"]"}]
