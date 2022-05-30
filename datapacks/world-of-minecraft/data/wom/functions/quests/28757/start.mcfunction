@@ -3,11 +3,8 @@
 # Announce quest accepted
 tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
 
-# Set the Quest ID
-scoreboard players set @a quest_id 001
-
-# Set the Quest ID
-scoreboard players set @a quest_id 28757
+# Update the Progress
+scoreboard players set @a[tag=init] 28757_started 1
 
 # Remove Quest Marker
 kill @e[nbt={Tags:["28757"]}]

@@ -1,8 +1,5 @@
 # Initialize World
 
-# [Quest Tracker]
-scoreboard objectives add quest_id dummy
-
 # Track if the player talks to an NPC
 scoreboard objectives add talked-to-villager minecraft.custom:talked_to_villager
 
