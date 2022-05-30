@@ -13,6 +13,11 @@ execute at @a[scores={talked-to-villager=1..,28757_started=1,28757_completed=0,m
 # Quest Giver - 28759 (Prerequisite(s): 28757)
 execute at @a[scores={talked-to-villager=1..,28757_completed=1,28759_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-giver
 
+# Quest Progress - 28759
+execute if entity @a[scores={28759_started=1,28759_completed=0}] run function wom:quests/28759/check-progress
+
+# Quest Ender - 28759
+execute at @a[scores={talked-to-villager=1..,28759_started=1,28759_completed=0,mc-killed-pillager=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-ender
 
 # Tick Reset(s) #
 
