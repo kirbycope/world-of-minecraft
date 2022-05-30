@@ -9,6 +9,7 @@ scoreboard players set @s quest_id 0
 
 # Progress #
 
-# IsQuestFlaggedCompleted(28757)
+# Quest 28757
 scoreboard objectives add 28757_completed dummy
 scoreboard players set @s 28757_completed 0
+summon item 3745 91.2 8889 {Item:{id:"minecraft:torch",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["28757"]}

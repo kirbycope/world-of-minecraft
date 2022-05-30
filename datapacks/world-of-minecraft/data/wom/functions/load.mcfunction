@@ -24,6 +24,3 @@ setblock 3704 90 8868 moss_carpet replace
 # Blackrock Worg spawner 3
 setblock 3691 90 8851 spawner{SpawnData:{entity:{id:"wolf",CustomName:'"Blackrock Worg"'}},Delay:299} replace
 setblock 3691 91 8851 moss_carpet replace
-
-# Quest 28757
-execute if entity @a[scores={28757_completed=0}] run summon item 3745 91.2 8889 {Item:{id:"minecraft:torch",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["28757"]}
