@@ -7,6 +7,10 @@ scoreboard objectives add quest_id dummy
 # Set Quest tracker to 0
 scoreboard players set @s quest_id 0
 
+# Play the Northshire Abbey music
+stopsound @s music
+playsound music_disc.11 music @s 3741 89 8893
+
 # Progress #
 
 # Quest 28757

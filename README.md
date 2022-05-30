@@ -2,7 +2,7 @@
 World of Warcraft but in Minecraft
 
 ## Original Map - [Creating Azeroth](https://www.minecraftforum.net/forums/show-your-creation/screenshots/1595918-crafting-azeroth)
-I loaded the map and tried to find the coordinates using [Minecraft Overviewer]([https://www.minecraftforum.net/forums/show-your-creation/screenshots/1595918-crafting-azeroth](https://overviewer.org/warcraft/#/4692/64/9805/max/0/0)). I eventually found Northshire Abbey at ~ `3740 89 8890`. Using [F3] I found the chunk to be `r.7.117`. I created a new void world save and replaced the "region" directory's contents with just `r.7.17.mca`.
+I loaded the map and tried to find the coordinates using [Minecraft Overviewer]([https://www.minecraftforum.net/forums/show-your-creation/screenshots/1595918-crafting-azeroth](https://overviewer.org/warcraft/#/4692/64/9805/max/0/0)). I eventually found Northshire Abbey at ~ `3741 89 8893`. Using [F3] I found the chunk to be `r.7.117`. I created a new void world save and replaced the "region" directory's contents with just `r.7.17.mca`.
 
 ## Editing World Data
 I used [Universal Minecraft Editor](https://www.universalminecrafteditor.com/) to edit a new save to become the starter for this repo. Mainly I changed the starting coordinates to be `3741 89 8893`.
