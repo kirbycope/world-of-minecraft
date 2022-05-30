@@ -1,8 +1,5 @@
 # Initialize World
 
-# This is why we can have nice things
-gamemode adventure
-
 # [Quest Tracker]
 scoreboard objectives add quest_id dummy
 

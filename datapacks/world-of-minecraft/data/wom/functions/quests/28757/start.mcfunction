@@ -20,16 +20,16 @@ summon item 3745 91.2 8889 {Item:{id:"minecraft:lever",Count:1},NoGravity:1b,Pic
 scoreboard objectives add wom-quest dummy {"text":"Quests","bold":true, "color":"gold"}
 scoreboard objectives setdisplay sidebar wom-quest
 scoreboard players set ❶ wom-quest 1
-team add q1o1t
-team modify q1o1t color gold
-team modify q1o1t suffix {"text":" Beating Them Back!","color": "gold"}
-team join q1o1t ❶
+team add 28757t
+team modify 28757t color gold
+team modify 28757t suffix {"text":" Beating Them Back!","color": "gold"}
+team join 28757t ❶
 # - (0/4) Blackrock Worg slain
 scoreboard players set - wom-quest 0
-team add q1o1
-team modify q1o1 prefix {"text": " "}
-team modify q1o1 suffix {"text":" 0/6 Blackrock Worg slain"}
-team join q1o1 -
+team add 28757
+team modify 28757 prefix {"text": " "}
+team modify 28757 suffix {"text":" 0/6 Blackrock Worg slain"}
+team join 28757 -
 
 # Scoreboard for Blackrock Worg slain
 scoreboard objectives add mc-killed-wolf minecraft.killed:wolf
