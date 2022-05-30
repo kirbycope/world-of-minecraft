@@ -1,11 +1,15 @@
 # Quest 001 # https://www.wowhead.com/quest=28757/beating-them-back
 
+# Announce quest accepted
 tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
 
-# Remove Quest Marker 001
+# Set the Quest ID
+scoreboard players set @a quest_id 001
+
+# Remove Quest Marker
 kill @e[nbt={Tags:["q1o1"]}]
 
-# Show Active Quest Marker 001
+# Show Active Quest Marker
 summon item 3745 91.2 8889 {Item:{id:"minecraft:lever",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["q1o1"]}
 
 # Sidebar #
@@ -23,3 +27,6 @@ team add q1o1
 team modify q1o1 prefix {"text": " "}
 team modify q1o1 suffix {"text":" 0/6 Blackrock Worg slain"}
 team join q1o1 -
+
+# Scoreboard for Blackrock Worg slain
+scoreboard objectives add mc-killed-wolf minecraft.killed:wolf
