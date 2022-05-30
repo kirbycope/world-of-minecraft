@@ -1,3 +1,5 @@
+# https://www.wowhead.com/quest=28757/beating-them-back #
+
 # Quest Dialog #
 tellraw @p {"text":"So you're the new recruit from Stormwind, eh? I'm Marshal McBride, commander of this garrison. Glad to have you on board...\n<McBride looks through some papers.>"}
 tellraw @p [{"selector":"@p"},{"text":". It is "},{"selector":"@p"},{"text":", right?"}]
