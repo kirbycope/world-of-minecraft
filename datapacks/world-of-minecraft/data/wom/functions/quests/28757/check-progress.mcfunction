@@ -9,4 +9,4 @@ execute if entity @a[scores={mc-killed-wolf=4}] run team modify 28757 suffix {"t
 # ════ Objective "1/6 Blackrock Worg slain" ════ #
 execute if entity @a[scores={mc-killed-wolf=5}] run team modify 28757 suffix {"text":" 5/6 Blackrock Worg slain"}
 # ════ Objective "6/6 Blackrock Worg slain" ════ #
-execute if entity @a[scores={mc-killed-wolf=6..}] run function wom:quests/28757/end
+execute if entity @a[scores={mc-killed-wolf=6..}] run team modify 28757 suffix {"text":" Ready for turn in"}
