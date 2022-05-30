@@ -11,7 +11,7 @@ I used [Universal Minecraft Editor](https://www.universalminecrafteditor.com/) t
 I created a resourcepack to replace the textures for Villagers, Wolves, etc.
 
 ### Stormwind Guard
-Based off of [this player skin](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest).
+Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest).
    - [Swamp.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/swamp.png) makes all Swamp Villagers into Storwind Guards without helmets
    - [Nitwit.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
 
