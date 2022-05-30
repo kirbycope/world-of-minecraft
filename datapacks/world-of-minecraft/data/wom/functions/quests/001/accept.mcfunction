@@ -6,6 +6,9 @@ tellraw @p {"text":"Quest accepted: Beating them back!","color":"gold"}
 # Set the Quest ID
 scoreboard players set @a quest_id 001
 
+# Set the Quest ID
+scoreboard players set @a quest_id 001
+
 # Remove Quest Marker
 kill @e[nbt={Tags:["q1o1"]}]
 
