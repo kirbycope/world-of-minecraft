@@ -1,4 +1,4 @@
-#Quest 001 Giver
+# Quest 001 Giver
 execute at @a[scores={talked-to-villager=1..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/001/start
 
 # Quest 001 Progress
