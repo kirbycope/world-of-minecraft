@@ -1,5 +1,8 @@
 # Initialize World
 
+# [Quest Tracker]
+scoreboard objectives add quest_id dummy
+
 ## Northshire Abbey ##
 # Guard 1
 execute unless entity @e[nbt={Tags:["npc001"]}] run summon minecraft:villager 3742 89 8886 {VillagerData:{type:"swamp",profession:"nitwit",level:99},Invulnerable:1b,NoAI:1b,Silent:1b,Rotation:[45f],Tags:["npc001"]}
