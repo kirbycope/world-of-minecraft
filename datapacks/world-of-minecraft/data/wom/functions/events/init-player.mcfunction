@@ -2,11 +2,11 @@
 tag @a[tag=!init] add init
 
 # Initial Gear
-item replace entity @s armor.head with iron_helmet
-item replace entity @s armor.chest with iron_chestplate
-item replace entity @s armor.legs with iron_leggings
-item replace entity @s armor.feet with iron_boots
-item replace entity @s weapon.mainhand with iron_sword
+item replace entity @s armor.head with chainmail_helmet
+item replace entity @s armor.chest with chainmail_chestplate
+item replace entity @s armor.legs with chainmail_leggings
+item replace entity @s armor.feet with chainmail_boots
+item replace entity @s weapon.mainhand with stone_sword
 item replace entity @s weapon.offhand with shield
 
 # Play the Northshire Abbey music
