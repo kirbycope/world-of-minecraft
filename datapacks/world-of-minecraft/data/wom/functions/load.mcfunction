@@ -26,5 +26,8 @@ setblock 3691 91 8851 moss_carpet replace
 setblock 3664 93 8830 spawner{SpawnData:{entity:{id:"pillager",CustomName:'"Blackrock Orc"'}},MaxNearbyEntities:4,Delay:20,RequiredPlayerRange:24} replace
 setblock 3664 94 8830 moss_carpet replace
 # Blackrock Orc spawner 2
-setblock 3665 94 8788 spawner{SpawnData:{entity:{id:"pillager",CustomName:'"Blackrock Orc"'}},MaxNearbyEntities:4,Delay:20,RequiredPlayerRange:24} replace
-setblock 3665 95 8788 moss_carpet replace
+setblock 3694 94 8816 spawner{SpawnData:{entity:{id:"pillager",CustomName:'"Blackrock Orc"'}},MaxNearbyEntities:4,Delay:20,RequiredPlayerRange:24} replace
+setblock 3694 95 8816 moss_carpet replace
+# Blackrock Orc spawner 3
+setblock 3676 94 8781 spawner{SpawnData:{entity:{id:"pillager",CustomName:'"Blackrock Orc"'}},MaxNearbyEntities:4,Delay:20,RequiredPlayerRange:24} replace
+setblock 3676 95 8781 moss_carpet replace
