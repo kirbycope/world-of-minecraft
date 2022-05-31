@@ -39,14 +39,14 @@ setblock 3657 99 8813 spawner{SpawnData:{entity:{id:"pillager",CustomName:'"Blac
 setblock 3657 100 8813 moss_carpet replace
 
 # Goblin Assassin spawner 1
-setblock 3744 88 8813 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"'}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
+setblock 3744 88 8813 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"',Age:-32767}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
 setblock 3744 89 8813 moss_carpet replace
 # Goblin Assassin spawner 2
-setblock 3732 90 8776 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"'}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
+setblock 3732 90 8776 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"',Age:-32767}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
 setblock 3732 91 8776 moss_carpet replace
 # Goblin Assassin spawner 3
-setblock 3724 93 8747 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"'}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
+setblock 3724 93 8747 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"',Age:-32767}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
 setblock 3724 94 8747 moss_carpet replace
 # Goblin Assassin spawner 4
-setblock 3759 90 8767 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"'}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
+setblock 3759 90 8767 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"',Age:-32767}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
 setblock 3759 91 8767 moss_carpet replace
