@@ -29,7 +29,7 @@ scoreboard objectives add 28759_completed dummy
 scoreboard players set @s 28759_completed 0
 
 # Quest 28780
-scoreboard objectives add 28708_started dummy
+scoreboard objectives add 28780_started dummy
 scoreboard players set @s 28780_started 0
 scoreboard objectives add 28780_completed dummy
 scoreboard players set @s 28780_completed 0

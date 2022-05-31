@@ -12,6 +12,9 @@ execute unless entity @e[name="Marshal McBride"] run summon minecraft:villager 3
 # Guard 2
 execute unless entity @e[nbt={Tags:["npc002"]}] run summon minecraft:villager 3746 89 8892 {VillagerData:{type:"swamp",profession:"nitwit",level:99},Invulnerable:1b,NoAI:1b,Silent:1b,Rotation:[45f],Tags:["npc002"]}
 
+## Sergeant Willem
+execute unless entity @e[name="Sergeant Willem"] run summon minecraft:villager 3758 88 8836 {VillagerData:{type:"swamp",level:99},CustomName:'[{"text":"Sergeant Willem","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[45f]}
+
 # Blackrock Worg spawner 1
 setblock 3704 91 8888 spawner{SpawnData:{entity:{id:"wolf",CustomName:'"Blackrock Worg"'}},MaxNearbyEntities:4,Delay:20,RequiredPlayerRange:24} replace
 setblock 3704 92 8888 moss_carpet replace
