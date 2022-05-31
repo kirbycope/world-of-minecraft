@@ -19,6 +19,15 @@ execute if entity @a[scores={28759_started=1,28759_completed=0}] run function wo
 # Quest Ender - 28759
 execute at @a[scores={talked-to-villager=1..,28759_started=1,28759_completed=0,mc-killed-pillager=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-ender
 
+# Quest Giver - 28780 (Prerequisite(s): 28759)
+execute at @a[scores={talked-to-villager=1..,28759_completed=1,28780_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28780/prompt-giver
+
+# Quest Progress - 28780
+# n/a this is a meet and greet quest
+
+# Quest Ender - 28780
+execute at @a[scores={talked-to-villager=1..,28780_started=1,28780_completed=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28780/prompt-ender
+
 # Tick Reset(s) #
 
 # Reset talked-to-villager tracker (to ignore clicks on nitwits)
