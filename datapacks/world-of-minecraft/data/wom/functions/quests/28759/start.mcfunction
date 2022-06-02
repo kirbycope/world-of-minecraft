@@ -24,4 +24,4 @@ team modify 28759 suffix {"text":" 0/8 Blackrock Spy slain"}
 team join 28759 -
 
 # Scoreboard for Blackrock Spy slain
-scoreboard objectives add mc-killed-pillager minecraft.killed:pillager
+scoreboard objectives add mc-killed-orc minecraft.killed:pillager

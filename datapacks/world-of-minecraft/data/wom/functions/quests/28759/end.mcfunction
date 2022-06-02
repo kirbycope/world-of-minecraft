@@ -1,5 +1,5 @@
 # Remove relevant scoreboard(s)
-scoreboard objectives remove mc-killed-pillager
+scoreboard objectives remove mc-killed-orc
 scoreboard objectives remove wom-quest
 
 # Update the Progress

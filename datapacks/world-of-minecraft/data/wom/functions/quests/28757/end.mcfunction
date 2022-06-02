@@ -1,5 +1,5 @@
 # Remove relevant scoreboard(s)
-scoreboard objectives remove mc-killed-wolf
+scoreboard objectives remove mc-killed-worg
 scoreboard objectives remove wom-quest
 
 # Update the Progress

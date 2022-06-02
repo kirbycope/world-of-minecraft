@@ -24,4 +24,4 @@ team modify 28757 suffix {"text":" 0/6 Blackrock Worg slain"}
 team join 28757 -
 
 # Scoreboard for Blackrock Worg slain
-scoreboard objectives add mc-killed-wolf minecraft.killed:wolf
+scoreboard objectives add mc-killed-worg minecraft.killed:wolf

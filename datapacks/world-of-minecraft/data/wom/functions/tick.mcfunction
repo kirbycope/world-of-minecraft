@@ -8,7 +8,7 @@ execute at @a[scores={talked-to-villager=1..,28757_started=0}] as @e[type=villag
 execute if entity @a[scores={28757_started=1,28757_completed=0}] run function wom:quests/28757/check-progress
 
 # Quest Ender - 28757
-execute at @a[scores={talked-to-villager=1..,28757_started=1,28757_completed=0,mc-killed-wolf=6..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28757/prompt-ender
+execute at @a[scores={talked-to-villager=1..,28757_started=1,28757_completed=0,mc-killed-worg=6..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28757/prompt-ender
 
 # Quest Giver - 28759 (Prerequisite(s): 28757)
 execute at @a[scores={talked-to-villager=1..,28757_completed=1,28759_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-giver
@@ -17,7 +17,7 @@ execute at @a[scores={talked-to-villager=1..,28757_completed=1,28759_started=0}]
 execute if entity @a[scores={28759_started=1,28759_completed=0}] run function wom:quests/28759/check-progress
 
 # Quest Ender - 28759
-execute at @a[scores={talked-to-villager=1..,28759_started=1,28759_completed=0,mc-killed-pillager=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-ender
+execute at @a[scores={talked-to-villager=1..,28759_started=1,28759_completed=0,mc-killed-orc=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28759/prompt-ender
 
 # Quest Giver - 28780 (Prerequisite(s): 28759)
 execute at @a[scores={talked-to-villager=1..,28759_completed=1,28780_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28780/prompt-giver
@@ -27,6 +27,15 @@ execute at @a[scores={talked-to-villager=1..,28759_completed=1,28780_started=0}]
 
 # Quest Ender - 28780
 execute at @a[scores={talked-to-villager=1..,28780_started=1,28780_completed=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28780/prompt-ender
+
+# Quest Giver - 28791 (Prerequisite(s): 28780)
+execute at @a[scores={talked-to-villager=1..,28780_completed=1,28791_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28791/prompt-giver
+
+# Quest Progress - 28791
+execute if entity @a[scores={28791_started=1,28791_completed=0}] run function wom:quests/28791/check-progress
+
+# Quest Ender - 28791
+execute at @a[scores={talked-to-villager=1..,28791_started=1,28791_completed=0,mc-killed-goblin=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28791/prompt-ender
 
 # Tick Reset(s) #
 
