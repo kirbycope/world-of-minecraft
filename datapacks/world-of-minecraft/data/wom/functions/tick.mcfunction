@@ -37,6 +37,15 @@ execute if entity @a[scores={28791_started=1,28791_completed=0}] run function wo
 # Quest Ender - 28791
 execute at @a[scores={talked-to-villager=1..,28791_started=1,28791_completed=0,mc-killed-goblin=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28791/prompt-ender
 
+# Quest Giver - 28817 (Prerequisite(s): 28791)
+execute at @a[scores={talked-to-villager=1..,28791_completed=1,28817_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Sergeant Willem"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28817/prompt-giver
+
+# Quest Progress - 28817
+# n/a this is a go back quest
+
+# Quest Ender - 28817
+execute at @a[scores={talked-to-villager=1..,28817_started=1,28817_completed=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/28817/prompt-ender
+
 # Tick Reset(s) #
 
 # Reset talked-to-villager tracker (to ignore clicks on nitwits)
