@@ -45,3 +45,9 @@ scoreboard objectives add 28817_started dummy
 scoreboard players set @s 28817_started 0
 scoreboard objectives add 28817_completed dummy
 scoreboard players set @s 28817_completed 0
+
+# Quest 26389
+scoreboard objectives add 26389_started dummy
+scoreboard players set @s 26389_started 0
+scoreboard objectives add 26389_completed dummy
+scoreboard players set @s 26389_completed 0
