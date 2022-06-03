@@ -52,4 +52,4 @@ setblock 3759 90 8767 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,
 setblock 3759 91 8767 moss_carpet replace
 
 # Note(s)
-setblock ~ ~ ~ spawner{SpawnCount:2,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:24,SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:loot_tables/blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}}} replace
+setblock ~ ~ ~ spawner{SpawnCount:2,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:24,SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}}} replace
