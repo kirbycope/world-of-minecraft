@@ -2,6 +2,9 @@
 scoreboard objectives remove wom-quest
 scoreboard objectives remove mc-pickup-orcwep
 
+# Remove quest items
+clear @s minecraft:wooden_sword{display:{Name:'{"text":"Blackrock Orc Weapon"}'}} 64
+
 # Update the Progress
 scoreboard players set @s 26389_completed 1
 

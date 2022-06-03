@@ -26,5 +26,5 @@ team join 26391 -
 # Scoreboard for Vineyard Fire extinguished
 scoreboard objectives add mc-ext-fire minecraft.used:water_bucket
 
-# Give player a water bucket
+# Quest Item
 give @s water_bucket{display:{Name:'[{"text":"Milly\'s Fire Extinguisher"}]',Lore:['[{"text":"Quest Item"}]']}} 1
