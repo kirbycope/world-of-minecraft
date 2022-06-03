@@ -3,11 +3,18 @@
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
           "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
             {
               "function": "minecraft:set_name",
               "name": "Blackrock Orc Weapon"
@@ -19,12 +26,9 @@
                   "text": "Quest Item"
                 }
               ]
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 1
             }
-          ]
+          ],
+          "name": "minecraft:wooden_sword"
         }
       ]
     }
