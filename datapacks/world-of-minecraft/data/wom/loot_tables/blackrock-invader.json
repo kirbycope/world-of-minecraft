@@ -19,6 +19,10 @@
                   "text": "Quest Item"
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
             }
           ]
         }
