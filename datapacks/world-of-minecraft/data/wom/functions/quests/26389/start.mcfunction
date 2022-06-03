@@ -20,7 +20,7 @@ team join 26389t ❶
 scoreboard players set - wom-quest 0
 team add 26389
 team modify 26389 prefix {"text": " "}
-team modify 26389 suffix {"text":" 0/8 Blackrock Orc Weapon "}
+team modify 26389 suffix {"text":" 0/8 Blackrock Orc Weapon"}
 team join 26389 -
 
 # Scoreboard for Blackrock Orc Weapon

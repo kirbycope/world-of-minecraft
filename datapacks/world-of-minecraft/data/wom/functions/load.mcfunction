@@ -51,5 +51,15 @@ setblock 3724 94 8747 moss_carpet replace
 setblock 3759 90 8767 spawner{SpawnData:{entity:{id:"zombified_piglin",IsBaby:1,CustomName:'"Goblin Assassin"',Age:-32767}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
 setblock 3759 91 8767 moss_carpet replace
 
-# Note(s)
-setblock ~ ~ ~ spawner{SpawnCount:2,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:24,SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}}} replace
+# Blackrock Invader spawner 1
+setblock 3872 83 8970 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
+setblock 3872 84 8970 moss_carpet replace
+# Blackrock Invader spawner 2
+setblock 3851 83 8984 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
+setblock 3851 84 8984 moss_carpet replace
+# Blackrock Invader spawner 3
+setblock 3864 83 9005 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
+setblock 3864 84 9005 moss_carpet replace
+# Blackrock Invader spawner 4
+setblock 3884 83 8992 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
+setblock 3884 84 8992 moss_carpet replace

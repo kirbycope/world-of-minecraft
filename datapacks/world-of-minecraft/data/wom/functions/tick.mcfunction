@@ -49,6 +49,21 @@ execute at @a[scores={talked-to-villager=1..,28817_started=1,28817_completed=0}]
 # Quest Giver - 26389 (Prerequisite(s): 28817)
 execute at @a[scores={talked-to-villager=1..,28817_completed=1,26389_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/26389/prompt-giver
 
+# Quest Progress - 26389
+execute if entity @a[scores={26389_started=1,26389_completed=0}] run function wom:quests/26389/check-progress
+
+# Quest Ender - 26389
+execute at @a[scores={talked-to-villager=1..,26389_started=1,26389_completed=0,mc-pickup-orcwep=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/26389/prompt-ender
+
+# Quest Giver - 26391 (Prerequisite(s): 26389)
+execute at @a[scores={talked-to-villager=1..,26389_completed=1,26391_started=0}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/26391/prompt-giver
+
+# Quest Progress - 26391
+execute if entity @a[scores={26391_started=1,26391_completed=0}] run function wom:quests/26391/check-progress
+
+# Quest Ender - 26391
+
+
 # Tick Reset(s) #
 
 # Reset talked-to-villager tracker (to ignore clicks on nitwits)
