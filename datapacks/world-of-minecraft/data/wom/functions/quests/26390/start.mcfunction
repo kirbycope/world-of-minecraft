@@ -23,5 +23,5 @@ team modify 26390 prefix {"text": " "}
 team modify 26390 suffix {"text":"  Kill Kurtok the Slayer"}
 team join 26390 -
 
-# Scoreboard for Blackrock Orc Weapon
+# Scoreboard for Kutrok the Slayer
 scoreboard objectives add mc-killed-kurtok minecraft.killed:vindicator
