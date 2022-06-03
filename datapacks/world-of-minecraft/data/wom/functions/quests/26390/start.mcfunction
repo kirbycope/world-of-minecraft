@@ -25,5 +25,3 @@ team join 26390 -
 
 # Scoreboard for Blackrock Orc Weapon
 scoreboard objectives add mc-killed-kurtok minecraft.killed:vindicator
-
-# ToDo: Place a summon block for Kurtok

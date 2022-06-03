@@ -63,3 +63,7 @@ setblock 3864 84 9005 moss_carpet replace
 # Blackrock Invader spawner 4
 setblock 3884 83 8992 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
 setblock 3884 84 8992 moss_carpet replace
+
+# Kurtok the Slayer
+setblock 3946 79 8856 spawner{SpawnData:{entity:{id:"minecraft:vindicator",DeathLootTable:"wom:kurtok",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:1,RequiredPlayerRange:12,SpawnCount:1} replace
+setblock 3946 79 8856 moss_carpet replace
