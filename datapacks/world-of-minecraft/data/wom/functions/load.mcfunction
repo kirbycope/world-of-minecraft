@@ -13,7 +13,7 @@ execute unless entity @e[name="Marshal McBride"] run summon minecraft:villager 3
 execute unless entity @e[nbt={Tags:["npc002"]}] run summon minecraft:villager 3746 89 8892 {VillagerData:{type:"swamp",profession:"nitwit",level:99},Invulnerable:1b,NoAI:1b,Silent:1b,Rotation:[45f],Tags:["npc002"]}
 
 # Brother Paxton
-execute unless entity @e[name="Brother Paxton"] run summon minecraft:villager 3752 88 8834 {VillagerData:{type:"plains",profession:"cleric",level:99},CustomName:'[{"text":"Brother Paxton","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[0f]}
+execute unless entity @e[name="Brother Paxton"] run summon minecraft:villager 3752 88 8834 {VillagerData:{type:"jungle",level:99},CustomName:'[{"text":"Brother Paxton","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[0f]}
 
 ## Sergeant Willem
 execute unless entity @e[name="Sergeant Willem"] run summon minecraft:villager 3758 88 8836 {VillagerData:{type:"swamp",level:99},CustomName:'[{"text":"Sergeant Willem","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[180f]}
