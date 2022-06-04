@@ -10,15 +10,28 @@ I used [Universal Minecraft Editor](https://www.universalminecrafteditor.com/) t
 ## NPCS
 I created a resourcepack to replace the textures for Villagers, Wolves, etc.
 
-### Stormwind Guard
-Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest).
-   - [swamp.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/swamp.png) makes all Swamp Villagers into Storwind Guards without helmets
-   - [nitwit.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
+### Goblin(s)
+I used a [screenshot](https://wow.zamimg.com/uploads/screenshots/normal/858399.jpg) from [WowHead](https://www.wowhead.com/).
+   - [zombified_piglin.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/piglin/zombified_piglin.png) is a Goblin Assassin
 
-### Blackrock Worg
-I used the [Black Wolf](https://www.planetminecraft.com/mob-skin/black-wolf-4913416/) skin from [kawai knight](https://www.planetminecraft.com/member/kawai_knight/).
+### Human(s)
+   - [swamp.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/swamp.png) makes all Swamp Villagers into Stormwind Guards without helmets
+      - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
+   - [nitwit.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
+      - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
+   - [cleric.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/cleric.png) make all Clerics into Priests)
+
+### Orc(s)
+   - [pillager.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/illager/pillager.png) is an orc without armor
+      - Based off of the [Warcraft Orc](https://www.minecraftskins.com/skin/12136457/warcraft-orc/) skin from [Civa](https://www.minecraftskins.com/profile/3231939/civa)
+   - [vindicator.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/illager/vindicator.png) is an orc with armor
+      - Based off of the [Warcraft Orc](https://www.minecraftskins.com/skin/12136457/warcraft-orc/) skin from [Civa](https://www.minecraftskins.com/profile/3231939/civa)
+
+### Wolf(ves)
    - [wolf.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/wolf/wolf.png) is a black wolf with yellow eyes
+      - Based off of the [Black Wolf](https://www.planetminecraft.com/mob-skin/black-wolf-4913416/) skin from [kawai knight](https://www.planetminecraft.com/member/kawai_knight/)
    - [wolf_angry.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/wolf/wolf_angry.png) is a black wolf with red eyes
+      - Based off of the [Black Wolf](https://www.planetminecraft.com/mob-skin/black-wolf-4913416/) skin from [kawai knight](https://www.planetminecraft.com/member/kawai_knight/)
 
 ## Sounds
 I [grabbed](https://catchvideo.net/convertaudio) the theme for [Northshire Abbey](https://www.youtube.com/watch?v=j2tGKb1wKiQ) (being sure to save as MONO and not STEREO) and saved it as [11.ogg](/resourcepacks/world-of-minecraft/assets/minecraft/sounds/records/11.ogg).
