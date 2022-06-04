@@ -20,6 +20,6 @@ execute if entity @a[scores={26390_started=1,26390_completed=0}] run function wo
 
 ## Optional Quests
 # https://www.wowhead.com/quest=29082/fear-no-evil
-
+execute if entity @a[scores={29082_started=1,29082_completed=0}] run function wom:quests/29082/check-progress
 # https://www.wowhead.com/quest=26391/extinguishing-hope
 execute if entity @a[scores={26391_started=1,26391_completed=0}] run function wom:quests/26391/check-progress

@@ -20,6 +20,6 @@ execute at @a[scores={talked-to-villager=1..,54_started=1,54_completed=0}] as @e
 
 ## Optional Quests
 # https://www.wowhead.com/quest=29082/fear-no-evil | Start: Brother Paxton
-
+execute at @a[scores={talked-to-villager=1..,29082_started=1,29082_completed=0,mc-ext-fire=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Brother Paxton"] as @a[scores={talked-to-villager=1..}] run function wom:quests/29082/prompt-ender
 # https://www.wowhead.com/quest=26391/extinguishing-hope | Start: Milly Osworth
 execute at @a[scores={talked-to-villager=1..,26391_started=1,26391_completed=0,mc-ext-fire=8..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Marshal McBride"] as @a[scores={talked-to-villager=1..}] run function wom:quests/26391/prompt-ender
