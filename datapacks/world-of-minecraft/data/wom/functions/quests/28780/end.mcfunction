@@ -12,6 +12,3 @@ tellraw @s {"text":"Reputation with Stormwind increased by 25.","color":"dark_bl
 tellraw @s {"text":"Join the Battle! completed.","color":"yellow"}
 tellraw @s {"text":"Experience gained: 50.","color":"yellow"}
 tellraw @s {"text":"Received 15 Copper.","color":"yellow"}
-
-# Show Quest Marker for next quest in the chain
-summon item 3758 90.2 8836 {Item:{id:"minecraft:torch",Count:1},NoGravity:1b,PickupDelay:32767,Tags:["28791"]}
