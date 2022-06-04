@@ -11,8 +11,8 @@ I used [Universal Minecraft Editor](https://www.universalminecrafteditor.com/) t
 I created a resourcepack to replace the textures for Villagers, Wolves, etc.
 
 ### Goblin(s)
-I used a [screenshot](https://wow.zamimg.com/uploads/screenshots/normal/858399.jpg) from [WowHead](https://www.wowhead.com/).
    - [zombified_piglin.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/piglin/zombified_piglin.png) is a Goblin Assassin
+      - Based off of a [screenshot](https://wow.zamimg.com/uploads/screenshots/normal/858399.jpg) from [WowHead](https://www.wowhead.com/)
 
 ### Human(s)
    - [swamp.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/swamp.png) makes all Swamp Villagers into Stormwind Guards without helmets
