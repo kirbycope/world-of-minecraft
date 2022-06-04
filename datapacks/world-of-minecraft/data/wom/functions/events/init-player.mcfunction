@@ -57,14 +57,20 @@ scoreboard players set @s 26390_started 0
 scoreboard objectives add 26390_completed dummy
 scoreboard players set @s 26390_completed 0
 
-# Quest 26391
-scoreboard objectives add 26391_started dummy
-scoreboard players set @s 26391_started 0
-scoreboard objectives add 26391_completed dummy
-scoreboard players set @s 26391_completed 0
-
 # Quest 54
 scoreboard objectives add 54_started dummy
 scoreboard players set @s 54_started 0
 scoreboard objectives add 54_completed dummy
 scoreboard players set @s 54_completed 0
+
+# Quest 29082
+scoreboard objectives add 29082_started dummy
+scoreboard players set @s 29082_started 0
+scoreboard objectives add 29082_completed dummy
+scoreboard players set @s 29082_completed 0
+
+# Quest 26391
+scoreboard objectives add 26391_started dummy
+scoreboard players set @s 26391_started 0
+scoreboard objectives add 26391_completed dummy
+scoreboard players set @s 26391_completed 0
