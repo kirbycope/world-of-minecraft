@@ -12,8 +12,14 @@ execute unless entity @e[name="Marshal McBride"] run summon minecraft:villager 3
 # Guard 2
 execute unless entity @e[nbt={Tags:["npc002"]}] run summon minecraft:villager 3746 89 8892 {VillagerData:{type:"swamp",profession:"nitwit",level:99},Invulnerable:1b,NoAI:1b,Silent:1b,Rotation:[45f],Tags:["npc002"]}
 
+# Brother Paxton
+execute unless entity @e[name="Brother Paxton"] run summon minecraft:villager 3752 88 8834 {VillagerData:{type:"plains",level:99},CustomName:'[{"text":"Brother Paxton","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[0f]}
+
 ## Sergeant Willem
-execute unless entity @e[name="Sergeant Willem"] run summon minecraft:villager 3758 88 8836 {VillagerData:{type:"swamp",level:99},CustomName:'[{"text":"Sergeant Willem","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[45f]}
+execute unless entity @e[name="Sergeant Willem"] run summon minecraft:villager 3758 88 8836 {VillagerData:{type:"swamp",level:99},CustomName:'[{"text":"Sergeant Willem","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[180f]}
+
+# Milly Osworth
+execute unless entity @e[name="Milly Osworth"] run summon minecraft:villager 3746 89 8897 {VillagerData:{type:"plains",level:99},CustomName:'[{"text":" Milly Osworth","color":"green"}]',Invulnerable:1b,NoAI:1b,Rotation:[0f]}
 
 # Blackrock Worg spawner 1
 setblock 3704 91 8888 spawner{SpawnData:{entity:{id:"wolf",CustomName:'"Blackrock Worg"'}},SpawnCount:2,MaxNearbyEntities:4,Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,RequiredPlayerRange:24} replace
