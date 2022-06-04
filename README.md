@@ -19,7 +19,7 @@ I created a resourcepack to replace the textures for Villagers, Wolves, etc.
    - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
 - [nitwit.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
    - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
-- [cleric.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/cleric.png) make all Clerics into Priests)
+- [jungle.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/jungle.png) make all Jungle Villagers into Priests)
 
 ### Orc(s)
 - [pillager.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/illager/pillager.png) is an orc without armor
