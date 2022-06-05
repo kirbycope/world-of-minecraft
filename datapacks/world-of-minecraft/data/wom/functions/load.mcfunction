@@ -61,11 +61,11 @@ setblock 3759 91 8767 moss_carpet replace
 setblock 3764 128 8798 minecraft:magenta_bed[part=foot,facing=south]
 setblock 3764 128 8799 minecraft:magenta_bed[part=head,facing=south]
 # Summon NPC above the bed
-summon minecraft:villager 3764 129 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Fallen Solider"}]',Invulnerable:1b,NoAI:1b,Tags:["fs001"]}
+summon minecraft:villager 3764 129 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi001"]}
 # Merge the data so that the NPC lays down
 execute as @e[type=!player] run data merge entity @s {SleepingX:3764,SleepingY:128,SleepingZ:8799}
 # Teleport the NPC into position
-tp @e[tag=fs01] 3764 90 8798
+tp @e[tag=isi001] 3764 90 8798
 
 # Blackrock Invader spawner 1
 setblock 3872 83 8970 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace
