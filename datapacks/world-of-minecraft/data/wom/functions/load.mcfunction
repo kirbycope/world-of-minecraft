@@ -64,8 +64,6 @@ setblock 3764 155 8799 minecraft:magenta_bed[part=head,facing=south]
 summon minecraft:villager 3764 156 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi001"]}
 # Merge the data so that the NPC lays down
 execute as @e[tag=isi001] run data merge entity @s {SleepingX:3764,SleepingY:155,SleepingZ:8799}
-# Teleport the NPC into position
-tp @e[tag=isi001] 3764 90 8798
 
 # Blackrock Invader spawner 1
 setblock 3872 83 8970 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace

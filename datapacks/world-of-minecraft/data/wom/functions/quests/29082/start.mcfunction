@@ -22,3 +22,6 @@ team add 29082
 team modify 29082 prefix {"text": " "}
 team modify 29082 suffix {"text":" (0/4) Injured Soldier revived"}
 team join 29082 -
+
+# Teleport the NPC into position
+tp @e[tag=isi001] 3764 90 8798
