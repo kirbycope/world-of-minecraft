@@ -19,7 +19,10 @@ I created a resourcepack to replace the textures for Villagers, Wolves, etc.
    - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
 - [nitwit.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/profession/nitwit.png) make all Nitwits into Stormwind Guards with helmets
    - Based off of the [Stormwind Guard](https://www.minecraftskins.com/skin/10923287/edit-of-stormwind-guard/) from [Goontthebest](https://www.minecraftskins.com/profile/2925112/goontthebest)
-- [jungle.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/jungle.png) make all Jungle Villagers into Priests)
+- [jungle.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/jungle.png) make all Jungle Villagers into Priests
+   - Based off of the [](https://www.minecraftskins.com/skin/5476777/world-of-warcraft-priest/) from [Dazkop](https://www.minecraftskins.com/profile/1981578/dazkop)
+- [plains.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/villager/type/plains.png) make all Plains Villagers into female farmers 
+   - Based off of [Millet](https://www.wowhead.com/npc=9296/milly-osworth#modelviewer)
 
 ### Orc(s)
 - [pillager.png](/resourcepacks/world-of-minecraft/assets/minecraft/textures/entity/illager/pillager.png) is an orc without armor
