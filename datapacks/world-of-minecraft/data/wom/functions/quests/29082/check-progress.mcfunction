@@ -1,0 +1,1 @@
+execute at @a[scores={talked-to-villager=1..}] as @e[type=villager,sort=nearest,limit=1] if entity @s[name="Injured Stormwind Infantry"] as @a[scores={talked-to-villager=1..}] run particle wax_on ~ ~ ~ 4 4 4 1 8000
