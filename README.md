@@ -1,6 +1,10 @@
 # world-of-minecraft
 World of Warcraft but in Minecraft
 
+## Installation
+1. Download the [zip file](https://github.com/kirbycope/world-of-minecraft/archive/refs/heads/main.zip)
+1. Unarchive zip contents into the [Saves folder](https://help.minecraft.net/hc/en-us/articles/4409159214605-Managing-Data-and-Game-Storage-in-Minecraft-Java-Edition) of Minecraft Java Edition
+
 ## Original Map - [Creating Azeroth](https://www.minecraftforum.net/forums/show-your-creation/screenshots/1595918-crafting-azeroth)
 I loaded the map and tried to find the coordinates using [Minecraft Overviewer]([https://www.minecraftforum.net/forums/show-your-creation/screenshots/1595918-crafting-azeroth](https://overviewer.org/warcraft/#/4692/64/9805/max/0/0)). I eventually found Northshire Abbey at ~ `3741 89 8893`. Using [F3] I found the chunk to be `r.7.117`. I created a new void world save and replaced the "region" directory's contents with just `r.7.17.mca`.
 
