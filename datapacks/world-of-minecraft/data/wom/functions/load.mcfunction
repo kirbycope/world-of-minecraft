@@ -63,7 +63,7 @@ setblock 3764 128 8799 minecraft:magenta_bed[part=head,facing=south]
 # Summon NPC above the bed
 summon minecraft:villager 3764 129 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi001"]}
 # Merge the data so that the NPC lays down
-execute as @e[type=!player] run data merge entity @s {SleepingX:3764,SleepingY:128,SleepingZ:8799}
+execute as @e[tag=isi001] run data merge entity @s {SleepingX:3764,SleepingY:128,SleepingZ:8799}
 # Teleport the NPC into position
 tp @e[tag=isi001] 3764 90 8798
 
