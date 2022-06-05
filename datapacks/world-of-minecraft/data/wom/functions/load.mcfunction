@@ -60,10 +60,16 @@ setblock 3759 91 8767 moss_carpet replace
 # Create a bed in the sky
 setblock 3764 155 8798 minecraft:magenta_bed[part=foot,facing=south]
 setblock 3764 155 8799 minecraft:magenta_bed[part=head,facing=south]
-# Summon NPC above the bed
+# Injured Stormwind Infantry 1
 summon minecraft:villager 3764 156 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi001"]}
-# Merge the data so that the NPC lays down
-execute as @e[tag=isi001] run data merge entity @s {SleepingX:3764,SleepingY:155,SleepingZ:8799}
+# Injured Stormwind Infantry 2
+summon minecraft:villager 3764 156 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi002"]}
+# Injured Stormwind Infantry 3
+summon minecraft:villager 3764 156 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi003"]}
+# Injured Stormwind Infantry 4
+summon minecraft:villager 3764 156 8799 {VillagerData:{type:"swamp",profession:"nitwit",level:99},CustomName:'[{"text":"Injured Stormwind Infantry","color": "green"}]',Invulnerable:1b,NoAI:1b,Tags:["isi004"]}
+# Merge the data so that the NPCs lay down
+execute as @e[name="Injured Stormwind Infantry"] run data merge entity @s {SleepingX:3764,SleepingY:155,SleepingZ:8799}
 
 # Blackrock Invader spawner 1
 setblock 3872 83 8970 spawner{SpawnData:{entity:{id:"minecraft:pillager",DeathLootTable:"wom:blackrock-invader",CustomName:'{"text":"Blackrock Invader"}'}},Delay:20,MinSpawnDelay:120,MaxSpawnDelay:240,MaxNearbyEntities:4,RequiredPlayerRange:12,SpawnCount:2} replace

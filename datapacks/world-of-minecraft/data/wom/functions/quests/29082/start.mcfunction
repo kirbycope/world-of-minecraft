@@ -25,3 +25,6 @@ team join 29082 -
 
 # Teleport the NPC into position
 tp @e[tag=isi001] 3764 90 8798
+tp @e[tag=isi002] 3778 91 8785
+tp @e[tag=isi003] 3735 90 8800
+tp @e[tag=isi003] 3769 92 8773
