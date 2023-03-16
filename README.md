@@ -1,3 +1,5 @@
+![World of Minecraft](https://timothycope.com/img/projects/wom-java.png)
+
 # world-of-minecraft
 World of Warcraft but in Minecraft
 
